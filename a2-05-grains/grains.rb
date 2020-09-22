@@ -13,7 +13,7 @@ class Grains
     total = 0
     n = 1
     64.times do
-      total += (2**(n - 1))
+      total += square(n)
       n += 1
     end
     total
